@@ -1,0 +1,77 @@
+{
+	"nodes": 
+	{
+		"A": {
+			"title": "Home page"
+		},
+		"B": {
+			"title": "Pricing Page"
+		},
+		"C": {
+			"title": "Signup"
+		},
+		"D": {
+			"title": "Add Project"
+		},
+		"E": {
+			"title": "Documentation"
+		},
+		"F": {
+			"title": "Add Code"
+		},
+		"G": {
+			"title": "Upgrade"
+		}
+	},
+	"edges": [
+	{
+		"source": "A",
+		"destination": "B",
+		"total": 500
+	},
+	{
+		"source": "B",
+		"destination": "C",
+		"total": 200
+	},
+	{
+		"source": "C",
+		"destination": "D",
+		"total": 100
+	},
+	{
+		"source": "B",
+		"destination": "A",
+		"total": 100
+	},
+	{
+		"source": "C",
+		"destination": "G",
+		"total": 3
+	},
+	{
+		"source": "D",
+		"destination": "E",
+		"total": 15
+	},
+	{
+		"source": "D",
+		"destination": "B",
+		"total": 6
+	},
+	{
+		"source": "E",
+		"destination": "F",
+		"total": 69
+	},
+	{
+		"source": "F",
+		"destination": "G",
+		"total": 24
+	},
+	{
+		"source": "F",
+		"destination": "D",
+		"total": 15
+	}]
+}

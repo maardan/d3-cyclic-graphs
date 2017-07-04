@@ -1,0 +1,23 @@
+.node {
+	circle {
+		stroke: #fff;
+		stroke-width: 2px;
+	}
+
+	text {
+		fill: #554949;
+		stroke: none;
+		font-size: 0.75em;
+	}	
+} 
+
+.link {
+	text {
+		z-index: 99;
+		font-size: 1.5em;
+	}
+
+	line {
+		cursor: pointer;
+	}	
+}
